@@ -30,4 +30,8 @@ mkdir -p $root/lists
 $p -s -o $root/lists/index.html lists/index.md
 $p -s -o $root/lists/todo-list.html lists/todo-list.md
 
+pandoc -s -o $root/feed.xml --template templates/rss-template.xml feed.yml
+sed -i '/^$/d' $root/feed.xml
+xmllint --format $root/feed.xml --output $root/feed.xml
+
 $browser $root/index.html

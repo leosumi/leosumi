@@ -1,7 +1,7 @@
 ---
 title: TODO list
 author: Léo Sumi
-date: 5 April 2019
+date: 11 April 2019
 title-prefix: Léo Sumi
 lang: en
 include-before: <a href="../index.html">Home</a> / <a href="index.html">Lists</a>
@@ -17,3 +17,5 @@ Articles:
 * HTTP status codes in a nutshell
 * PDF are awesome
 * You do not need social media
+* RSS feeds are underrated
+* free (as in freedom) software

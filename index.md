@@ -27,3 +27,8 @@ Here are some [chronicles](chronicles/index.html), posts that are events based w
 ## Lists
 
 Here is a [list](lists/index.html) of lists of useful things.
+
+## Links
+
+* [RSS feed](feed.xml) -- To be the first to know
+* [Github](https://github.com/leosumi) -- Where all the code is

@@ -25,3 +25,15 @@ Using a static site generator like [jekyll](https://jekyllrb.com/) or [hugo](htt
 At the end, I obtained a simple static website with HTML and CSS files only. It is small, crazy fast to load, and without all the useless trackers trying to learn about you that most websites love to use.
 
 From now on, I will post the content that I want to share. Without specific aims.
+
+## Feed me
+
+11 April 2019
+
+I will post whenever I feel like it. To be the first to know when a new post is available, I implemented an RSS feed. This is maybe the most underused technology. The feed is available [here](../feed.xml). I will update it if I write a new article, update a chronicle, or make a big change.
+
+If you do not know what a feed is, you can do some research on RSS technology. I will write an article about it when I have the time (the [TODO list](../lists/todo-list.html) is growing). A feed is used to be informed of new publications on a website. It is mostly used on news sites and blogs.
+
+RSS feeds are written in XML. As it is not the most readable language, I wrote a pandoc template to convert a YAML file to an RSS feed. The template is available in this [repository](https://github.com/leosumi/pandoc-rss-template) on my github account.
+
+By the way, Richard Stallman came at my university to give a conference. I think I should write an article about free software.
