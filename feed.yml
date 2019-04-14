@@ -7,10 +7,13 @@ item:
   - title: Going static - Hello World! chronicle
     link: https://leosumi.github.io/chronicles/hello-world.html#going-static
     description: The aim of this chronicle is to record the history of this site. How long will this post be? I do not know yet. Time will tell.
+    pubDate: 5 Apr 2019
   - title: How to learn C
     link: https://leosumi.github.io/articles/how-to-learn-c.html
     description: An article about the C programming language
+    pubDate: 5 Apr 2019
   - title: Feed me - Hello World! chronicle
     link: https://leosumi.github.io/chronicles/hello-world.html#feed-me
     description: The aim of this chronicle is to record the history of this site. How long will this post be? I do not know yet. Time will tell.
+    pubDate: 11 Apr 2019
 ...
