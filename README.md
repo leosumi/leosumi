@@ -4,7 +4,7 @@ This repository contains the different files needed to generate my website. I wr
 
 The website is served from the [leosumi.github.io](https://github.com/leosumi/leosumi.github.io) repository.
 
-The website can be found at https://leosumi.github.io
+The website can be found at https://leosumi.com
 
 ## Website layout
 
