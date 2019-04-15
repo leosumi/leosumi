@@ -37,3 +37,21 @@ If you do not know what a feed is, you can do some research on RSS technology. I
 RSS feeds are written in XML. As it is not the most readable language, I wrote a pandoc template to convert a YAML file to an RSS feed. The template is available in this [repository](https://github.com/leosumi/pandoc-rss-template) on my github account.
 
 By the way, Richard Stallman came at my university to give a conference. I think I should write an article about free software.
+
+## New domain name
+
+15 April 2019
+
+The dark age has come to an end. I finally purchased my domain name. No more *leosumi.github.io*. This website has a proper domain name: *leosumi.com*.
+
+I used *.com* as a top-level domain because it is the first that people will test. I also redirected my *www.* subdomain to *leosumi.com* for the same reason.
+
+I also enforced the *https* protocol over *http*. The secure protocol is pretty much useless for a static website, but I do not want to see the annoying "not secure" warning that recent browsers love to display.
+
+To summarize, you can use the following URL:
+
+* leosumi.com
+* www.leosumi.com
+* leosumi.github.io
+
+I think that smaller is better and leosumi.com is the way to go.
