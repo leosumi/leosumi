@@ -1,23 +1,23 @@
 ---
 title: Léo Sumi's random thoughts
-link: https://leosumi.github.io
+link: https://leosumi.com
 description: "Hi, Léo here. Welcome to my small piece of internet. I wrote to put words on thoughts I have. I display them here for everyone to see. Look around: you may find some posts of interest to you."
 
 item:
   - title: Going static - Hello World! chronicle
-    link: https://leosumi.github.io/chronicles/hello-world.html#going-static
+    link: https://leosumi.com/chronicles/hello-world.html#going-static
     description: The aim of this chronicle is to record the history of this site. How long will this post be? I do not know yet. Time will tell.
     pubDate: 5 Apr 2019
   - title: How to learn C
-    link: https://leosumi.github.io/articles/how-to-learn-c.html
+    link: https://leosumi.com/articles/how-to-learn-c.html
     description: An article about the C programming language
     pubDate: 5 Apr 2019
   - title: Feed me - Hello World! chronicle
-    link: https://leosumi.github.io/chronicles/hello-world.html#feed-me
+    link: https://leosumi.com/chronicles/hello-world.html#feed-me
     description: The aim of this chronicle is to record the history of this site. How long will this post be? I do not know yet. Time will tell.
     pubDate: 11 Apr 2019
   - title: New domain name - Hello World! chronicle
-    link: https://leosumi.github.io/chronicles/hello-world.html#new-domain-name
+    link: https://leosumi.com/chronicles/hello-world.html#new-domain-name
     description: The aim of this chronicle is to record the history of this site. How long will this post be? I do not know yet. Time will tell.
     pubDate: 15 Apr 2019
 ...
