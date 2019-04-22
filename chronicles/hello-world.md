@@ -55,3 +55,11 @@ To summarize, you can use the following URL:
 * leosumi.github.io
 
 I think that smaller is better and leosumi.com is the way to go.
+
+## Let's put some icons
+
+22 April 2019
+
+I put the corresponding icons for the links at the end of the home page. It is better than a simple bullet list. It is more eye-catching.
+
+I would like to put a link for contact, but I am not sure which is the ideal method for the task. Maybe an email address or a twitter account? I will think about it.
