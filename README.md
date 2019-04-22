@@ -11,6 +11,7 @@ The website can be found at https://leosumi.com
     ├─ articles/     articles on a particular subject
     ├─ chronicles/   posts following a timeline
     ├─ lists/        lists of interesting stuff
+    ├─ res/          resources directory
     ├─ templates/    templates for pandoc
     ├─ build.sh      build script
     ├─ feed.yml      RSS feed
