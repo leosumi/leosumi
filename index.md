@@ -30,5 +30,5 @@ Here is a [list](lists/index.html) of lists of useful things.
 
 ## Links
 
-* [RSS feed](feed.xml) -- To be the first to know
-* [Github](https://github.com/leosumi) -- Where all the code is
+* [RSS feed](feed.xml){.feed-icon} -- To be the first to know
+* [Github](https://github.com/leosumi){.github-icon} -- Where all the code is

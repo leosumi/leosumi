@@ -16,6 +16,7 @@ fi
 
 mkdir -p $root
 cp style.css $root/style.css
+cp -r res $root/
 $p -s -o $root/index.html index.md
 
 mkdir -p $root/articles
