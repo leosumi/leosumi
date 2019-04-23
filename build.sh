@@ -22,6 +22,7 @@ $p -s -o $root/index.html index.md
 mkdir -p $root/articles
 $p -s -o $root/articles/index.html articles/index.md
 $p -s -o $root/articles/how-to-learn-c.html articles/how-to-learn-c.md
+$p -s -o $root/articles/rss-feeds-are-underused.html articles/rss-feeds-are-underused.md
 
 mkdir -p $root/chronicles
 $p -s -o $root/chronicles/index.html chronicles/index.md

@@ -24,4 +24,8 @@ item:
     link: https://leosumi.com/chronicles/hello-world.html#lets-put-some-icons
     description: The aim of this chronicle is to record the history of this site. How long will this post be? I do not know yet. Time will tell.
     pubDate: 22 Apr 2019
+  - title: RSS feeds are underused
+    link: https://leosumi.com/articles/rss-feeds-are-underused.html
+    description: An article about RSS feeds
+    pubDate: 23 Apr 2019
 ...

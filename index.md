@@ -18,6 +18,7 @@ I wrote some [articles](articles/index.html) that you may find interesting. The 
 
 Recently, I wrote:
 
+* [RSS feeds are underused](articles/rss-feeds-are-underused.html)
 * [How to learn C](articles/how-to-learn-c.html)
 
 ## Chronicles
