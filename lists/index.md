@@ -7,3 +7,4 @@ css: ../style.css
 ...
 
 * [TODO list](todo-list.html)
+* [Web fiction list](web-fiction-list.html)

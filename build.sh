@@ -32,6 +32,7 @@ $p -s -o $root/chronicles/hello-world.html chronicles/hello-world.md
 mkdir -p $root/lists
 $p -s -o $root/lists/index.html lists/index.md
 $p -s -o $root/lists/todo-list.html lists/todo-list.md
+$p -s -o $root/lists/web-fiction-list.html lists/web-fiction-list.md
 
 pandoc -s -o $root/feed.xml --template templates/rss-template.xml feed.yml
 sed -i '/^$/d' $root/feed.xml
