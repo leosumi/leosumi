@@ -34,3 +34,4 @@ Here is a [list](lists/index.html) of lists of useful things.
 
 * [RSS feed](feed.xml){.feed-icon} -- To be the first to know
 * [Github](https://github.com/leosumi){.github-icon} -- Where all the code is
+* [Twitter](https://twitter.com/LeoSumiVox){.twitter-icon} -- To have a voice @LeoSumiVox

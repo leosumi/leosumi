@@ -63,3 +63,11 @@ I think that smaller is better and leosumi.com is the way to go.
 I put the corresponding icons for the links at the end of the home page. It is better than a simple bullet list. It is more eye-catching.
 
 I would like to put a link for contact, but I am not sure which is the ideal method for the task. Maybe an email address or a twitter account? I will think about it.
+
+## Let's get a voice
+
+19 July 2019
+
+I created a twitter account. I will use it to announce posts on this site the same way the [RSS feed](../feed.xml) is used. You can follow me at [\@LeoSumiVox](https://twitter.com/LeoSumiVox).
+
+Choosing a handler was a hassle. Obviously @leosumi was not available, as @LeoSumi, @SumiLeo and so on. I do not think using an underscore is a good idea. I do not like using @RealLeoSumi or @TheLeoSumi simply because English is not the only language I speak. Using the Latin word for voice is the best move I think.
