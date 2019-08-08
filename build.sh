@@ -24,6 +24,7 @@ $p -s -o $root/articles/index.html articles/index.md
 $p -s -o $root/articles/how-to-learn-c.html articles/how-to-learn-c.md
 $p -s -o $root/articles/rss-feeds-are-underused.html articles/rss-feeds-are-underused.md
 $p -s -o $root/articles/a-small-report-about-patisiran.html articles/a-small-report-about-patisiran.md
+$p -s -o $root/articles/the-free-software-road.html articles/the-free-software-road.md
 
 mkdir -p $root/chronicles
 $p -s -o $root/chronicles/index.html chronicles/index.md

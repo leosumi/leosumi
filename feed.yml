@@ -40,4 +40,8 @@ item:
     link: https://leosumi.com/chronicles/hello-world.html#lets-get-a-voice
     description: The aim of this chronicle is to record the history of this site. How long will this post be? I do not know yet. Time will tell.
     pubDate: 19 Jul 2019
+  - title: The free software road
+    link: https://leosumi.com/articles/the-free-software-road.html
+    description: An article about free software
+    pubDate: 08 Aug 2019
 ...
