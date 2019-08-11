@@ -18,6 +18,7 @@ I wrote some [articles](articles/index.html) that you may find interesting. The 
 
 Recently, I wrote:
 
+* [Becoming a keyboard master](articles/becoming-a-keyboard-master.html)
 * [The free software road](articles/the-free-software-road.html)
 * [A small report about patisiran](articles/a-small-report-about-patisiran.html)
 * [RSS feeds are underused](articles/rss-feeds-are-underused.html)
