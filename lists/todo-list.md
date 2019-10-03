@@ -4,7 +4,6 @@ author: Léo Sumi
 date: 8 August 2019
 title-prefix: Léo Sumi
 lang: en
-include-before: <a href="../index.html">Home</a> / <a href="index.html">Lists</a>
 ...
 
 The goal is simple: reach TODO.clear().
