@@ -4,7 +4,6 @@ author: Léo Sumi
 date: 8 August 2019
 title-prefix: Léo Sumi
 lang: en
-css: ../style.css
 ...
 
 What is free software ? If you think it is gratis, you are wrong. You do not need to pay to use most free software available, but this is not the rule. Most free software do not use the pay-to-use economic model and choose a different way to make profit.

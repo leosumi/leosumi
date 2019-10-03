@@ -4,7 +4,6 @@ author: Léo Sumi
 date: 23 April 2019
 title-prefix: Léo Sumi
 lang: en
-css: ../style.css
 ...
 
 RSS feed is the most underused web technology. Most people have never heard about it. If you are part of these people, this article is for you.

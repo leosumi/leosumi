@@ -4,7 +4,6 @@ author: Léo Sumi
 date: 1 June 2019
 title-prefix: Léo Sumi
 lang: en
-css: ../style.css
 ...
 
 I had lectures on pharmacology (BIO-478) during my studies at [EPFL](https://www.epfl.ch/en/home/). A small personal project was done for this course. Here, you will find the final report submitted on 17 May 2019 and accepted on 21 May 2019.

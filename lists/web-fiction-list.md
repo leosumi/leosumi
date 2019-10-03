@@ -5,7 +5,6 @@ date: 07 July 2019
 title-prefix: Léo Sumi
 lang: en
 include-before: <a href="../index.html">Home</a> / <a href="index.html">Lists</a>
-css: ../style.css
 ...
 
 You will find here a list of great stories available on the web. From working drafts to finished journeys, everything can be listed. The only limitation: my humble opinion.

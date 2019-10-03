@@ -2,7 +2,6 @@
 title: Articles
 title-prefix: Léo Sumi
 lang: en
-css: ../style.css
 ...
 
 * [Becoming a keyboard master](becoming-a-keyboard-master.html)

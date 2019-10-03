@@ -4,7 +4,6 @@ author: Léo Sumi
 date: 11 August 2019
 title-prefix: Léo Sumi
 lang: en
-css: ../style.css
 ...
 
 Today, most of our writing are produced using a computer. Unfortunately, most writers did not take the time to master the keyboard. If you type a lot, and do not have a proper technique, you need to fix this issue. You will gain a lot of benefits with some effort.

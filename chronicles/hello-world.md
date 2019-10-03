@@ -4,7 +4,6 @@ author: Léo Sumi
 date: 5 April 2019
 title-prefix: Léo Sumi
 lang: en
-css: ../style.css
 ...
 
 The aim of this chronicle is to record the history of this site. How long will this post be? I do not know yet. Time will tell.

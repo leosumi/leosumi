@@ -4,7 +4,6 @@ author: Léo Sumi
 date: 5 April 2019
 title-prefix: Léo Sumi
 lang: en
-css: ../style.css
 ...
 
 C is a programming language created by Dennis Ritchie at Bell Labs in the 1970s. The first book written about C: *The C Programming Language* was written by Brian Kernighan and co-authored by Dennis. The first publication date from 1978. The book was considered as the de facto standard for many years. The K&R book had a second edition in 1988 to follow the first standardization of the language: ANSI C (also called C89 or C90). This standard wars followed by some major revisions: C99 in 1999 and C11 in 2011. These standards made some big improvement to C.

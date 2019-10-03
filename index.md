@@ -1,7 +1,6 @@
 ---
 title: Léo Sumi's random thoughts
 lang: en
-css: style.css
 ...
 
 ## Welcome!
