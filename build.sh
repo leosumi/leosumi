@@ -45,7 +45,7 @@ $p -s -B templates/list-header.html -o $root/lists/todo-list.html lists/todo-lis
 $p -s -B templates/list-header.html -o $root/lists/web-fiction-list.html lists/web-fiction-list.md
 
 # RSS
-pandoc -s -o $root/feed.xml --template templates/rss-template.xml feed.yml
+$p -s --template templates/rss-template.xml -o $root/feed.xml feed.yml
 sed -i '/^$/d' $root/feed.xml
 xmllint --format $root/feed.xml --output $root/feed.xml
 
