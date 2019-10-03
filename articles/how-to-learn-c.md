@@ -4,7 +4,6 @@ author: Léo Sumi
 date: 5 April 2019
 title-prefix: Léo Sumi
 lang: en
-include-before: <a href="../index.html">Home</a> / <a href="index.html">Articles</a>
 css: ../style.css
 ...
 
