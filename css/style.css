@@ -66,14 +66,14 @@ a
 {
     margin-left: 3px;
     padding: 0 0 0 19px;
-    background: url("./res/icons/feed-icon/feed-icon-14x14.png") no-repeat 0 50%;
+    background: var(--feed-icon-url) no-repeat 0 50%;
 }
 
 .github-icon
 {
     margin-left: 3px;
     padding: 0 0 0 19px;
-    background: url("./res/icons/GitHub-Mark/GitHub-Mark-Light-32px.png") no-repeat 0 50%;
+    background: var(--github-icon-url) no-repeat 0 50%;
     background-size: 14px;
 }
 
@@ -81,6 +81,6 @@ a
 {
     margin-left: 3px;
     padding: 0 0 0 19px;
-    background: url("./res/icons/twitter-icon/Twitter_Social_Icon_Circle_White.png") no-repeat 0 50%;
+    background: var(--twitter-icon-url) no-repeat 0 50%;
     background-size: 14px;
 }
