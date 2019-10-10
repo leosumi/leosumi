@@ -49,5 +49,5 @@ $p -s --template templates/rss-template.xml -o $root/feed.xml feed.yml
 sed -i '/^$/d' $root/feed.xml
 xmllint --format $root/feed.xml --output $root/feed.xml
 
-# Display
-$browser $root/index.html
+# Local server
+python3 -m http.server --directory $root
