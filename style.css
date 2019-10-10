@@ -1,6 +1,8 @@
+/*
+ * Primary styles
+ */
 body
 {
-    /*max-width: 1050px;*/
     max-width: 33em;
     margin-left: auto;
     margin-right: auto;
@@ -24,6 +26,9 @@ a
     color: #0f7;
 }
 
+/*
+ * External links
+ */
 #links + ul
 {
     list-style-type: none;
