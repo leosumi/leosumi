@@ -1,0 +1,11 @@
+/*
+ * Light theme
+ *
+ * Based on the R notebook colorscheme
+ */
+:root
+{
+    --primary-color: #337ab7;
+    --text-color: #333;
+    --background-color: #fff;
+}

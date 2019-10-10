@@ -1,0 +1,11 @@
+/*
+ * Night theme
+ *
+ * Based on the BreezeDark colorscheme
+ */
+:root
+{
+    --primary-color: #3DAEE9;
+    --text-color: #cfcfc2;
+    --background-color: #232629;
+}

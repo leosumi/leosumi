@@ -1,4 +1,32 @@
 /*
+ * Main Style Sheet
+ */
+
+/*
+ * Theme buttons
+ */
+.theme-settings
+{
+    float: right;
+}
+
+.theme-button
+{
+    position: relative;
+    display: inline-block;
+    font-weight: bold;
+    padding: 0.25em 0.5em;
+    text-decoration: none;
+    color: var(--text-color);
+    background: var(--background-color);
+}
+
+.theme-button:hover
+{
+    box-shadow: 2px 2px 2px gray;
+}
+
+/*
  * Primary styles
  */
 body
@@ -9,8 +37,8 @@ body
     margin-top: 30px;
     overflow: none;
 
-    background: #222;
-    color: #fff;
+    background: var(--background-color);
+    color: var(--text-color);
     font: 1.2em "Liberation Sans", sans-serif;
 }
 
@@ -23,7 +51,7 @@ p
 
 a
 {
-    color: #0f7;
+    color: var(--primary-color);
 }
 
 /*
