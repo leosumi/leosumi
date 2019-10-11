@@ -54,6 +54,8 @@ p
 a
 {
     color: var(--primary-color);
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
 }
 
 /*
