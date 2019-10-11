@@ -4,7 +4,6 @@ version=2.7.3
 root=../leosumi.github.io
 
 p=/usr/bin/pandoc
-browser=/usr/bin/firefox
 
 # Check pandoc version
 installed=$($p --version | head -n 1 | cut -d " " -f 2)
@@ -51,4 +50,6 @@ sed -i '/^$/d' $root/feed.xml
 xmllint --format $root/feed.xml --output $root/feed.xml
 
 # Local server
-python3 -m http.server --directory $root
+if ["$1" = "--serve" ]; then
+    python3 -m http.server --directory $root
+fi
