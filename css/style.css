@@ -31,6 +31,9 @@
  */
 body
 {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 18px;
+
     max-width: 33em;
     margin-left: auto;
     margin-right: auto;
@@ -39,7 +42,6 @@ body
 
     background: var(--background-color);
     color: var(--text-color);
-    font: 1.2em "Liberation Sans", sans-serif;
 }
 
 p
