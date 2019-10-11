@@ -19,7 +19,12 @@ mkdir -p $root
 cp -r css $root/
 cp -r js $root/
 cp -r res $root/
+
+# index
 $p -s -H templates/head.html -B templates/theme-settings.html -B templates/navigation-bar.html -o $root/index.html index.md
+
+# 404
+$p -s -H templates/head.html -B templates/theme-settings.html -B templates/index-header.html -o $root/404.html 404.md
 
 # Articles
 mkdir -p $root/articles
