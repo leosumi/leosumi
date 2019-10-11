@@ -50,6 +50,6 @@ sed -i '/^$/d' $root/feed.xml
 xmllint --format $root/feed.xml --output $root/feed.xml
 
 # Local server
-if ["$1" = "--serve" ]; then
+if [ "$1" = "--serve" ]; then
     python3 -m http.server --directory $root
 fi
