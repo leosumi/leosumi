@@ -10,13 +10,16 @@ The website can be found at https://leosumi.com
 
     ├─ articles/     articles on a particular subject
     ├─ chronicles/   posts following a timeline
+    ├─ css/          CSS for a readable website
+    ├─ js/           JavaScript code
     ├─ lists/        lists of interesting stuff
     ├─ res/          resources directory
     ├─ templates/    templates for pandoc
+    ├─ 404.md        404 page
+    ├─ about.md      About page
     ├─ build.sh      build script
     ├─ feed.yml      RSS feed
-    ├─ index.md      Home page
-    └─ style.css     CSS for a readable website
+    └─ index.md      Home page
 
 ## RSS feed
 
