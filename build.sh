@@ -26,6 +26,9 @@ $p -s -H templates/head.html -B templates/theme-settings.html -B templates/navig
 # 404
 $p -s -H templates/head.html -B templates/theme-settings.html -B templates/index-header.html -o $root/404.html 404.md
 
+# About
+$p -s -H templates/head.html -B templates/theme-settings.html -B templates/index-header.html -o $root/about.html about.md
+
 # Articles
 mkdir -p $root/articles
 $p -s -H templates/head.html -B templates/theme-settings.html -B templates/index-header.html -o $root/articles/index.html articles/index.md
