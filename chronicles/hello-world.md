@@ -69,3 +69,21 @@ I would like to put a link for contact, but I am not sure which is the ideal met
 I created a twitter account. I will use it to announce posts on this site the same way the [RSS feed](../feed.xml) is used. You can follow me at [\@LeoSumiVox](https://twitter.com/LeoSumiVox).
 
 Choosing a handler was a hassle. Obviously @leosumi was not available, as @LeoSumi, @SumiLeo and so on. I do not think using an underscore is a good idea. I do not like using @RealLeoSumi or @TheLeoSumi simply because English is not the only language I speak. Using the Latin word for voice is the best move I think.
+
+## A beautification operation
+
+16 October 2019
+
+Time to make some serious improvement. Let's make everything prettier and more readable.
+
+First, the colors needed to be changed. From now on, you can choose between a light and dark theme. For the dark theme, I reduced the contrast between the text and the background.
+
+The implementation of the theme switcher needed some JavaScript and a cookie to remember the theme you choose. This way, it is possible to display new pages directly with the correct theme.
+
+I changed the font to Helvetica. This sans-serif font gives a more modern look. Vertical spacing was increased for better readability.
+
+I also added a custom [404](/404.html) page and an [about](/about.html) page.
+
+Finally, I tried to clearly separate content to the code needed for the website generation. I discovered that HTML understands root relative path. This was used to simplify linking between pages. No more need for dubious and long relative paths.
+
+But, it is always possible to do better. For instance, I do not have a favicon yet. The website should be tested on multiple browser and screen size. The script that build the webpages could be rewritten. And I could translate some posts in french.
