@@ -28,7 +28,7 @@ If you need a reference manual for the standard library, google is your friend. 
 [open-std]: http://www.open-std.org/JTC1/SC22/WG14/
 
 [cs50]: https://www.youtube.com/user/cs50tv
-[modern-c]: http://icube-icps.unistra.fr/img_auth.php/d/db/ModernC.pdf
+[modern-c]: https://modernc.gforge.inria.fr
 
 [onlinegdb]: https://www.onlinegdb.com/
 [codeblocks]: http://www.codeblocks.org/
