@@ -13,6 +13,7 @@ The website can be found at https://leosumi.com
     ├─ css/          CSS for a readable website
     ├─ js/           JavaScript code
     ├─ lists/        lists of interesting stuff
+    ├─ notes/        notes on different subjects
     ├─ res/          resources directory
     ├─ templates/    templates for pandoc
     ├─ 404.md        404 page
