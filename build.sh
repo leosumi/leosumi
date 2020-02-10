@@ -1,6 +1,7 @@
 #! /bin/bash
 
 version=2.8
+R_version=3.6.2
 root=../leosumi.github.io
 
 p=/usr/bin/pandoc
@@ -11,6 +12,15 @@ if [ "$version" != "$installed" ]; then
     echo "pandoc version:"
     echo "installed: $installed"
     echo "needed:    $version"
+    exit 1
+fi
+
+# Check R version
+R_installed=$(R --version | head -n 1 | cut -d " " -f 3)
+if [ "$R_version" != "$R_installed" ]; then
+    echo "R version:"
+    echo "installed: $R_installed"
+    echo "needed:    $R_version"
     exit 1
 fi
 
