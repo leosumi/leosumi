@@ -1,2 +1,10 @@
 drafts/
 tags
+
+# R
+
+# History files
+.Rhistory
+
+# RStudio files
+.Rproj.user/
