@@ -14,6 +14,14 @@ if [ "$version" != "$installed" ]; then
     exit 1
 fi
 
+# This function build and add an R note
+R-note()
+{
+    R -e "rmarkdown::render('notes/r-notes/$1.Rmd', rmarkdown::md_document(variant = 'markdown', preserve_yaml = TRUE))"
+    $p -s -H templates/head.html -B templates/theme-settings.html -B templates/r-note-header.html -o $root/notes/r-notes/$1.html notes/r-notes/$1.md
+    rm notes/r-notes/$1.md
+}
+
 # Root directory
 mkdir -p $root
 cp -r css $root/
@@ -42,6 +50,10 @@ $p -s -H templates/head.html -B templates/theme-settings.html -B templates/artic
 # Notes
 mkdir -p $root/notes
 $p -s -H templates/head.html -B templates/theme-settings.html -B templates/index-header.html -o $root/notes/index.html notes/index.md
+
+# R notes
+mkdir -p $root/notes/r-notes
+$p -s -H templates/head.html -B templates/theme-settings.html -B templates/note-header.html -o $root/notes/r-notes/index.html notes/r-notes/index.md
 
 # Chronicles
 mkdir -p $root/chronicles

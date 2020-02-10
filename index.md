@@ -27,6 +27,8 @@ Recently, I wrote:
 
 Here are some [notes](notes/index.html), not so short introduction to a particular subject.
 
+* [R notes](notes/r-notes/index.html)
+
 ## Chronicles
 
 Here are some [chronicles](chronicles/index.html), posts that are events based written in chronological order. You can look at my [Hello World!](chronicles/hello-world.html) chronicle, a post about this website.
