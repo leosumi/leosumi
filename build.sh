@@ -1,6 +1,6 @@
 #! /bin/bash
 
-version=2.8
+version=2.9.2
 R_version=3.6.2
 root=../leosumi.github.io
 
