@@ -56,6 +56,7 @@ $p -s -H templates/head.html -B templates/theme-settings.html -B templates/artic
 $p -s -H templates/head.html -B templates/theme-settings.html -B templates/article-header.html -o $root/articles/a-small-report-about-patisiran.html articles/a-small-report-about-patisiran.md
 $p -s -H templates/head.html -B templates/theme-settings.html -B templates/article-header.html -o $root/articles/the-free-software-road.html articles/the-free-software-road.md
 $p -s -H templates/head.html -B templates/theme-settings.html -B templates/article-header.html -o $root/articles/becoming-a-keyboard-master.html articles/becoming-a-keyboard-master.md
+$p -s -H templates/head.html -B templates/theme-settings.html -B templates/article-header.html -o $root/articles/caps-lock-from-useless-to-indispensable.html articles/caps-lock-from-useless-to-indispensable.md
 
 # Notes
 mkdir -p $root/notes

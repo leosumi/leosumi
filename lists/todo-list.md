@@ -11,7 +11,7 @@ The goal is simple: reach TODO.clear().
 Articles:
 
 * Accounts only need username and password
-* Caps lock: from useless to indispensable
+* ~~Caps lock: from useless to indispensable~~
 * HTTP status codes in a nutshell
 * PDF are awesome
 * You do not need social media
