@@ -1,7 +1,7 @@
 #! /bin/bash
 
-version=2.9.2.1
-R_version=4.0.0
+version=2.10.1
+R_version=4.0.2
 root=../leosumi.github.io
 
 p=/usr/bin/pandoc
