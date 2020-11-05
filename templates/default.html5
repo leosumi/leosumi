@@ -46,6 +46,8 @@ $elseif(article-nav)$
 <a href="../index.html">Home</a> / <a href="index.html">Articles</a>
 $elseif(note-nav)$
 <a href="../../index.html">Home</a> / <a href="../index.html">Notes</a>
+$elseif(r-note-nav)$
+<a href="../../index.html">Home</a> / <a href="../index.html">Notes</a> / <a href="index.html">R notes</a>
 $elseif(chronicle-nav)$
 <a href="../index.html">Home</a> / <a href="index.html">Chronicles</a>
 $elseif(list-nav)$

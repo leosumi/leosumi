@@ -28,7 +28,7 @@ fi
 R-note()
 {
     R -e "rmarkdown::render('notes/r-notes/$1.Rmd', rmarkdown::md_document(variant = 'markdown', preserve_yaml = TRUE))"
-    $p -s -H templates/head.html -B templates/theme-settings.html -B templates/r-note-header.html -o $root/notes/r-notes/$1.html notes/r-notes/$1.md
+    $p --template=templates/default.html5 -V r-note-nav -o $root/notes/r-notes/$1.html notes/r-notes/$1.md
     rm notes/r-notes/$1.md
 }
 
