@@ -38,6 +38,19 @@ $endfor$
   <button type="button" class="theme-button" onclick="setActiveStyleSheet('Light theme')" style="--text-color:#333; --background-color:#fff;">Light</button>
   <button type="button" class="theme-button" onclick="setActiveStyleSheet('Night theme')" style="--text-color:#cfcfc2; --background-color:#232629;">Night</button>
 </div>
+$if(home-nav)$
+<a href="/articles/index.html">Articles</a> | <a href="/notes/index.html">Notes</a> | <a href="/chronicles/index.html">Chronicles</a> | <a href="/lists/index.html">Lists</a> | <a href="/about.html">About</a>
+$elseif(index-nav)$
+<a href="../index.html">Home</a>
+$elseif(article-nav)$
+<a href="../index.html">Home</a> / <a href="index.html">Articles</a>
+$elseif(note-nav)$
+<a href="../../index.html">Home</a> / <a href="../index.html">Notes</a>
+$elseif(chronicle-nav)$
+<a href="../index.html">Home</a> / <a href="index.html">Chronicles</a>
+$elseif(list-nav)$
+<a href="../index.html">Home</a> / <a href="index.html">Lists</a>
+$endif$
 $for(include-before)$
 $include-before$
 $endfor$
