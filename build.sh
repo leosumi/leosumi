@@ -64,7 +64,7 @@ $p --template=templates/default.html5 -V index-nav -o $root/notes/index.html not
 
 # R notes
 mkdir -p $root/notes/r-notes
-$p --template=templates/default.html5 -B note-nav -o $root/notes/r-notes/index.html notes/r-notes/index.md
+$p --template=templates/default.html5 -V note-nav -o $root/notes/r-notes/index.html notes/r-notes/index.md
 
 # Chronicles
 mkdir -p $root/chronicles
