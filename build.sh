@@ -39,45 +39,45 @@ cp -r js $root/
 cp -r res $root/
 
 # index
-$p --template=templates/default.html5 -M document-css=false -B templates/theme-settings.html -B templates/navigation-bar.html -o $root/index.html index.md
+$p --template=templates/default.html5 -B templates/theme-settings.html -B templates/navigation-bar.html -o $root/index.html index.md
 
 # 404
-$p --template=templates/default.html5 -M document-css=false -B templates/theme-settings.html -B templates/index-header.html -o $root/404.html 404.md
+$p --template=templates/default.html5 -B templates/theme-settings.html -B templates/index-header.html -o $root/404.html 404.md
 
 # About
-$p --template=templates/default.html5 -M document-css=false -B templates/theme-settings.html -B templates/index-header.html -o $root/about.html about.md
+$p --template=templates/default.html5 -B templates/theme-settings.html -B templates/index-header.html -o $root/about.html about.md
 
 # Articles
 mkdir -p $root/articles
-$p --template=templates/default.html5 -M document-css=false -B templates/theme-settings.html -B templates/index-header.html -o $root/articles/index.html articles/index.md
+$p --template=templates/default.html5 -B templates/theme-settings.html -B templates/index-header.html -o $root/articles/index.html articles/index.md
 
-$p --template=templates/default.html5 -M document-css=false -B templates/theme-settings.html -B templates/article-header.html -o $root/articles/how-to-learn-c.html articles/how-to-learn-c.md
-$p --template=templates/default.html5 -M document-css=false -B templates/theme-settings.html -B templates/article-header.html -o $root/articles/rss-feeds-are-underused.html articles/rss-feeds-are-underused.md
-$p --template=templates/default.html5 -M document-css=false -B templates/theme-settings.html -B templates/article-header.html -o $root/articles/a-small-report-about-patisiran.html articles/a-small-report-about-patisiran.md
-$p --template=templates/default.html5 -M document-css=false -B templates/theme-settings.html -B templates/article-header.html -o $root/articles/the-free-software-road.html articles/the-free-software-road.md
-$p --template=templates/default.html5 -M document-css=false -B templates/theme-settings.html -B templates/article-header.html -o $root/articles/becoming-a-keyboard-master.html articles/becoming-a-keyboard-master.md
-$p --template=templates/default.html5 -M document-css=false -B templates/theme-settings.html -B templates/article-header.html -o $root/articles/caps-lock-from-useless-to-indispensable.html articles/caps-lock-from-useless-to-indispensable.md
+$p --template=templates/default.html5 -B templates/theme-settings.html -B templates/article-header.html -o $root/articles/how-to-learn-c.html articles/how-to-learn-c.md
+$p --template=templates/default.html5 -B templates/theme-settings.html -B templates/article-header.html -o $root/articles/rss-feeds-are-underused.html articles/rss-feeds-are-underused.md
+$p --template=templates/default.html5 -B templates/theme-settings.html -B templates/article-header.html -o $root/articles/a-small-report-about-patisiran.html articles/a-small-report-about-patisiran.md
+$p --template=templates/default.html5 -B templates/theme-settings.html -B templates/article-header.html -o $root/articles/the-free-software-road.html articles/the-free-software-road.md
+$p --template=templates/default.html5 -B templates/theme-settings.html -B templates/article-header.html -o $root/articles/becoming-a-keyboard-master.html articles/becoming-a-keyboard-master.md
+$p --template=templates/default.html5 -B templates/theme-settings.html -B templates/article-header.html -o $root/articles/caps-lock-from-useless-to-indispensable.html articles/caps-lock-from-useless-to-indispensable.md
 
 # Notes
 mkdir -p $root/notes
-$p --template=templates/default.html5 -M document-css=false -B templates/theme-settings.html -B templates/index-header.html -o $root/notes/index.html notes/index.md
+$p --template=templates/default.html5 -B templates/theme-settings.html -B templates/index-header.html -o $root/notes/index.html notes/index.md
 
 # R notes
 mkdir -p $root/notes/r-notes
-$p --template=templates/default.html5 -M document-css=false -B templates/theme-settings.html -B templates/note-header.html -o $root/notes/r-notes/index.html notes/r-notes/index.md
+$p --template=templates/default.html5 -B templates/theme-settings.html -B templates/note-header.html -o $root/notes/r-notes/index.html notes/r-notes/index.md
 
 # Chronicles
 mkdir -p $root/chronicles
-$p --template=templates/default.html5 -M document-css=false -B templates/theme-settings.html -B templates/index-header.html -o $root/chronicles/index.html chronicles/index.md
+$p --template=templates/default.html5 -B templates/theme-settings.html -B templates/index-header.html -o $root/chronicles/index.html chronicles/index.md
 
-$p --template=templates/default.html5 -M document-css=false -B templates/theme-settings.html -B templates/chronicle-header.html -o $root/chronicles/hello-world.html chronicles/hello-world.md
+$p --template=templates/default.html5 -B templates/theme-settings.html -B templates/chronicle-header.html -o $root/chronicles/hello-world.html chronicles/hello-world.md
 
 # Lists
 mkdir -p $root/lists
-$p --template=templates/default.html5 -M document-css=false -B templates/theme-settings.html -B templates/index-header.html -o $root/lists/index.html lists/index.md
+$p --template=templates/default.html5 -B templates/theme-settings.html -B templates/index-header.html -o $root/lists/index.html lists/index.md
 
-$p --template=templates/default.html5 -M document-css=false -B templates/theme-settings.html -B templates/list-header.html -o $root/lists/todo-list.html lists/todo-list.md
-$p --template=templates/default.html5 -M document-css=false -B templates/theme-settings.html -B templates/list-header.html -o $root/lists/web-fiction-list.html lists/web-fiction-list.md
+$p --template=templates/default.html5 -B templates/theme-settings.html -B templates/list-header.html -o $root/lists/todo-list.html lists/todo-list.md
+$p --template=templates/default.html5 -B templates/theme-settings.html -B templates/list-header.html -o $root/lists/web-fiction-list.html lists/web-fiction-list.md
 
 # RSS
 $p -s --template templates/rss-template.xml -o $root/feed.xml feed.yml
