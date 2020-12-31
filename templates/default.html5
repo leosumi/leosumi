@@ -85,9 +85,9 @@ $endfor$
 <footer>
 <hr />
 <ul>
-<li><a href="/feed.xml" class="feed-icon">RSS feed</a></li>
-<li><a href="https://github.com/leosumi" class="github-icon">Github</a></li>
-<li><a href="https://twitter.com/LeoSumiVox" class="twitter-icon">Twitter</a></li>
+<li><a href="/feed.xml" class="feed-icon"></a></li>
+<li><a href="https://github.com/leosumi" class="github-icon"></a></li>
+<li><a href="https://twitter.com/LeoSumiVox" class="twitter-icon"></a></li>
 </ul>
 </footer>
 </body>

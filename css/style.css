@@ -107,23 +107,20 @@ a
  */
 .feed-icon
 {
-    margin-left: 3px;
-    padding: 0 0 0 19px;
+    padding: 10px 32px;
     background: var(--feed-icon-url) no-repeat 0 50%;
 }
 
 .github-icon
 {
-    margin-left: 3px;
-    padding: 0 0 0 19px;
+    padding: 10px 32px;
     background: var(--github-icon-url) no-repeat 0 50%;
-    background-size: 14px;
+    background-size: 28px;
 }
 
 .twitter-icon
 {
-    margin-left: 3px;
-    padding: 0 0 0 19px;
+    padding: 10px 32px;
     background: var(--twitter-icon-url) no-repeat 0 50%;
-    background-size: 14px;
+    background-size: 28px;
 }
