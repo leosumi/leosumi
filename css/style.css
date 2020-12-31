@@ -38,6 +38,12 @@ pre.sourceCode
 /*
  * Primary styles
  */
+html
+{
+    position: relative;
+    min-height: 100%;
+}
+
 body
 {
     font-family: Georgia, serif;
@@ -48,7 +54,7 @@ body
     margin-left: auto;
     margin-right: auto;
     margin-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 0px;
     overflow: none;
 
     background: var(--background-color);
@@ -60,6 +66,28 @@ header
     margin-top: 6em;
     margin-bottom: 6em;
     text-align: center;
+}
+
+#content
+{
+    padding-bottom: 6em;
+}
+
+footer
+{
+    position: absolute;
+
+    bottom: 0;
+    height: 6em;
+
+    width: 100%;
+    max-width: 40em;
+    text-align: center;
+}
+
+footer ul li
+{
+    display: inline;
 }
 
 p
