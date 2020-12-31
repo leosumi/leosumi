@@ -103,13 +103,8 @@ a
 }
 
 /*
- * External links
+ * Icons
  */
-#links + ul
-{
-    list-style-type: none;
-}
-
 .feed-icon
 {
     margin-left: 3px;
