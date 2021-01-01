@@ -80,7 +80,8 @@ $p --template=templates/default.html5 -V list-nav -o $root/lists/todo-list.html 
 $p --template=templates/default.html5 -V list-nav -o $root/lists/web-fiction-list.html lists/web-fiction-list.md
 
 # RSS
-$p -s --template templates/rss-template.xml -o $root/feed.xml feed.yml
+# Pandoc does not recognize XML and YAML without warnings
+$p -s --template templates/rss-template.xml --from=markdown --to=html -o $root/feed.xml feed.yml
 sed -i '/^$/d' $root/feed.xml
 xmllint --format $root/feed.xml --output $root/feed.xml
 
